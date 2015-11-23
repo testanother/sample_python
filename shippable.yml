@@ -22,4 +22,5 @@ script:
   - coverage xml -o shippable/codecoverage/coverage.xml
 
 notifications:
-  email: false
+  email: 
+    varsha@shippable.com
