@@ -32,3 +32,5 @@ integrations:
       type: hipchat
       recipients:
         - "#roomOne"
+      on_success: always
+      on_failure: always
