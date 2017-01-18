@@ -31,6 +31,6 @@ integrations:
     - integrationName: hipchat
       type: hipchat
       recipients:
-        - "#roomOne"
+        - "@VootlaChaitanya"
       on_success: always
       on_failure: always
