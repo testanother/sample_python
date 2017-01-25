@@ -26,12 +26,12 @@ script:
 
 
 #cache: true
-integrations:
-  notifications:
-    - integrationName: hipchat
-      type: hipchat
-      recipients:
-        - "@VootlaChaitanya"
-        - "#roomOne"
-      on_success: always
-      on_failure: always
+#integrations:
+#  notifications:
+#    - integrationName: hipchat
+#      type: hipchat
+#      recipients:
+#        - "@VootlaChaitanya"
+#        - "#roomOne"
+#      on_success: always
+#      on_failure: always
