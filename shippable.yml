@@ -35,3 +35,4 @@ script:
 integrations:
   notifications:
     - integrationName: event
+      type: resource
