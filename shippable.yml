@@ -31,12 +31,3 @@ script:
 #        - "#roomOne"
 #      on_success: always
 #      on_failure: always
-
-integrations:
-  notifications:
-    - integrationName: event
-      type: webhook
-      on_success: always
-      on_failure: always
-      on_pull_request: always
-      on_start: always
