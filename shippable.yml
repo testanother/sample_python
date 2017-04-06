@@ -31,3 +31,7 @@ script:
 #        - "#roomOne"
 #      on_success: always
 #      on_failure: always
+
+integrations:
+  notifications:
+    - integrationName: event
