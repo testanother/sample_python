@@ -35,4 +35,8 @@ script:
 integrations:
   notifications:
     - integrationName: event
-      type: resource
+      type: webhook
+      on_success: always
+      on_failure: always
+      on_pull_request: always
+      on_start: always
